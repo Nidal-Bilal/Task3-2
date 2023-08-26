@@ -1,0 +1,318 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    overflow: hidden;
+}
+.about,
+.ourser,
+.specialization,
+.teacher,
+.plans,
+.contact {
+    width: 100%;
+    height: 100vh;
+    
+    display: flex;
+}
+.footer{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    
+
+}
+.footer ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+
+}
+
+.header{
+    
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+    background-size: contain;
+    
+}
+.nav{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
+    background-color: gray;
+    position: fixed;
+    flex-wrap: wrap;
+    
+    
+    
+
+}
+.p1,.p2{
+    width: max-content;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    
+    
+    
+}
+
+
+.plan1{
+    display: flex;
+}
+a{
+    color: beige;
+    text-decoration: none;
+    margin: 0 20px;
+}
+.img{
+    width: 100vw;
+}
+.hero{
+    
+    position: absolute;
+    width: max-content;
+    
+    background-color: #b9a0a059;
+    top: 45vh;
+    margin-left:30vw;
+    border-radius: 4px;
+    
+}
+.about{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.about h2{
+    padding: 20px;
+}
+.ourser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: aqua;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    
+
+}
+.serviceinfo h3{
+    padding: 20px;
+}
+.allser,
+.allspec,
+.allteachers{
+    display: flex;
+    width: 100%;
+    justify-content:space-around;
+    flex-wrap:wrap; 
+    /* background-color: blueviolet;  */
+}
+
+.serviceinfo,
+.spec,
+.tech1{
+    display:inline-block ;
+    
+}
+.specialization{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    flex-wrap: wrap;
+}
+
+
+.specialization h1{
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.specialization p{
+    text-align: center;
+}
+.specialization h3{
+    text-align: center;
+    padding: 20px;
+}
+.teacher {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 150vh;
+    background-color: burlywood;
+    
+    
+}
+
+
+.allteachers{
+    justify-content: center;
+    align-items: center;
+    
+    flex-wrap: wrap;
+}
+.tech1 img{
+    padding-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.tech1 h3{
+    margin: 20px;
+}
+.tech1 p,
+.tech1 h3{
+    
+    display: flex;
+    
+    justify-content: center;
+    /* background-color: brown; */
+}
+
+.plans{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    
+    
+    
+}
+.allplan{
+    
+    display: flex;
+    justify-content: center;
+    
+    padding: 100px;
+    flex-wrap: wrap;
+    
+}
+.plan1{
+    width: 200px;
+    
+    display: inline-block;
+    background-color: coral;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+    
+}
+
+.plan1 ul{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    
+    
+    
+}
+.plan1 h3{
+    text-align: center;
+    margin: 20px;
+}
+.plan1 ul{
+    padding: 20px;
+}
+.planinfo{
+    text-align: left;
+    padding: 20px;
+    background-color: burlywood;
+    margin: 10px;
+    
+}
+.plan1{
+    margin: 20px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    background-color: aqua;
+
+}
+.lab{
+    display: flex;
+    justify-content: ; 
+       /* background-color: brown; */
+    text-align: left;
+}
+
+
+.form{
+    width: 40%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.inp{
+    display: flex;
+    width: 100%;
+    align-items: left;
+    text-align: left;
+}
+.contactinfo{
+    text-align: center;
+    margin-top: 20px;
+}
+.contactinfo h1{
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:600px) {
+    .plans{
+        height: 200vh;
+    }
+    .teacher{
+        height: 150vh;
+    }
+}
+.button{
+    
+    
+    width: 100px;
+    
+    background-color:gray ;
+    
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.butt{
+    display: flex;
+    justify-content: center;
+}
